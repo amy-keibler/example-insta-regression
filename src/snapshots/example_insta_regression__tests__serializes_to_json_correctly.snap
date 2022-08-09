@@ -1,0 +1,14 @@
+---
+source: src/lib.rs
+expression: "vec![Example :: ChoiceA(ChoiceAStruct { field_a : \"a\".to_string() }), Example\n    :: ChoiceB(\"b\".to_string()),]"
+---
+[
+  {
+    "choiceA": {
+      "fieldA": "a"
+    }
+  },
+  {
+    "choiceB": "b"
+  }
+]
